@@ -3,7 +3,7 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int all_files;
+static int all_files; //static 선언으로 범위가 파일 내로 제한됨. 링킹 과정에서 에러 발생 
 
 extern void sub();
 
